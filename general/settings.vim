@@ -12,3 +12,6 @@ set cursorline                          " Enable highlighting of current line
 set termguicolors                       " Color setting
 set re=0                                " Redraw time
 set textwidth=80                        " Set max char per line
+set nowritebackup                       " Backup settings 
+set noswapfile                          " Backup settings 
+set nobackup                            " Backup settings 

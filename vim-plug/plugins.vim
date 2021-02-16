@@ -26,6 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     """""""""""""""""""
     Plug 'dracula/vim'
     Plug 'franbach/miramare'
+    Plug 'nanotech/jellybeans.vim'
 
     """""""""""""""""""
     " Syntax support
@@ -35,5 +36,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'fatih/vim-go'
     Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
     Plug 'tomlion/vim-solidity'
+    Plug 'mattn/emmet-vim'
 
 call plug#end()
