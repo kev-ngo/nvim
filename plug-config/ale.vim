@@ -1,6 +1,8 @@
 let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'css': ['prettier'],
+\   'html': ['prettier'],
+\   'javascriptreact': ['prettier'],
 \}
 
 let g:ale_linters_explicit = 1
