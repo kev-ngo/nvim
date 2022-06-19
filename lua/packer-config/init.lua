@@ -12,4 +12,8 @@ return require'packer'.startup(function()
     use 'rcarriga/nvim-notify' -- Notification manager
     -- use 'nvim-lualine/lualine.nvim' -- Statusline
     use 'romgrk/barbar.nvim' -- Tabline plugin
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
 end)
