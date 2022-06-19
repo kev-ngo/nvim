@@ -1,3 +1,5 @@
 require('settings')
 require('colorschemes.nightfox')
 require('packer-config')
+require('mappings')
+require('nvim-tree-config')
