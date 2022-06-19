@@ -9,4 +9,7 @@ return require'packer'.startup(function()
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind-nvim' -- VS Code-like pictograms
+    use 'rcarriga/nvim-notify' -- Notification manager
+    -- use 'nvim-lualine/lualine.nvim' -- Statusline
+    use 'romgrk/barbar.nvim' -- Tabline plugin
 end)
