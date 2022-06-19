@@ -18,4 +18,15 @@ return require'packer'.startup(function()
 
     -- File explorer.  Install ripgrep dependency
     use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
+
+    -- Auto-pairs
+    use 'jiangmiao/auto-pairs'
+
+    -- Commenter
+    use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+}
 end)
