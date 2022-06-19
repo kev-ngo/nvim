@@ -29,4 +29,7 @@ return require'packer'.startup(function()
         require('Comment').setup()
     end
 }
+
+    -- Formatter
+    use { 'jose-elias-alvarez/null-ls.nvim', config = "require('null-ls-config')" }
 end)
