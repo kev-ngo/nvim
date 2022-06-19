@@ -12,8 +12,10 @@ return require'packer'.startup(function()
     use 'rcarriga/nvim-notify' -- Notification manager
     -- use 'nvim-lualine/lualine.nvim' -- Statusline
     use 'romgrk/barbar.nvim' -- Tabline plugin
-    use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-    }
+
+    -- Language parser
+    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+
+    -- File explorer.  Install ripgrep dependency
+    use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
 end)
