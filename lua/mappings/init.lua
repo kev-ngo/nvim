@@ -5,4 +5,4 @@ local opts = { noremap = true, silent = true }
 vim.g.mapleader = ' '
 
 -- NvimTree 
-map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+map('n', '<leader>t', ':NvimTreeToggle<CR>', opts)
