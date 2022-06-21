@@ -32,9 +32,6 @@ return require("packer").startup(function()
 	-- Formatter
 	use({ "jose-elias-alvarez/null-ls.nvim", config = "require('null-ls-config')" })
 
-	-- npm auto-complete
+	-- NPM auto-complete
 	use("David-Kunz/cmp-npm")
-
-	-- jsx auto-tag complete
-	use("windwp/nvim-ts-autotag")
 end)
