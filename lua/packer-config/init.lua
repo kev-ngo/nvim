@@ -1,16 +1,25 @@
 return require("packer").startup(function()
-	use("wbthomason/packer.nvim") -- Package manager
-	use("EdenEast/nightfox.nvim") -- Theme
-	use("neovim/nvim-lspconfig") -- Lsp configuration
-	use("kyazdani42/nvim-tree.lua") -- Tree explorer
-	use("kyazdani42/nvim-web-devicons") -- Icons for nvim-tree
-	use("hrsh7th/nvim-cmp") -- Autocompletion plugin
-	use("hrsh7th/cmp-nvim-lsp") -- LSP source for nvim-cmp
-	use("saadparwaiz1/cmp_luasnip") -- Snippets source for nvim-cmp
-	use("L3MON4D3/LuaSnip") -- Snippets plugin
-	use("onsails/lspkind-nvim") -- VS Code-like pictograms
-	use("rcarriga/nvim-notify") -- Notification manager
-	use("romgrk/barbar.nvim") -- Tabline plugin
+	-- Package manager
+	use("wbthomason/packer.nvim")
+
+	-- Theme
+	use("EdenEast/nightfox.nvim")
+
+	-- Lsp configuration
+	use("neovim/nvim-lspconfig")
+	use("hrsh7th/cmp-nvim-lsp")
+
+	-- Tree explorer
+	use("kyazdani42/nvim-tree.lua")
+	use("kyazdani42/nvim-web-devicons")
+
+	-- Autocompletion
+	use("hrsh7th/nvim-cmp")
+	use("saadparwaiz1/cmp_luasnip")
+	use("L3MON4D3/LuaSnip")
+	use("onsails/lspkind-nvim")
+	use("rcarriga/nvim-notify")
+	use("romgrk/barbar.nvim")
 
 	-- Language parser
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
